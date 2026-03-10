@@ -5,7 +5,6 @@ export const userModel = {
     name: t.String({
       minLength: 1,
       maxLength: 50,
-      pattern: "^[a-zA-Z0-9\\s\\-_]+$", // Alphanumeric, spaces, hyphens, underscores
       description: "User name to greet",
       examples: ["john", "alice", "user-123"],
     }),
