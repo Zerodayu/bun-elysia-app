@@ -28,10 +28,10 @@ Open <http://localhost:8080/> with your browser to see the result.
 ## Features
 
 - openApi Documentation out-of-the-box support `/openapi`
+- Built-in test requests for the routes
 - TypeScript first app, means type safe
 - simple File Structure
 
 ```
 
 ```
-
