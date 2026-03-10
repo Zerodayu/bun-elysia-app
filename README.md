@@ -11,8 +11,7 @@ bun create elysia project-name
 
 ```
 <!-- Clone this project -->
-git clone <https://github.com/Zerodayu/bun-elysia-app.git>
-
+git clone https://github.com/Zerodayu/bun-elysia-app.git
 ```
 
 ## Development
