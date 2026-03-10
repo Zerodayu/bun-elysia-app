@@ -31,7 +31,3 @@ Open <http://localhost:8080/> with your browser to see the result.
 - Built-in test requests for the routes
 - TypeScript first app, means type safe
 - simple File Structure
-
-```
-
-```
