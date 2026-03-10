@@ -4,7 +4,11 @@ import { apiRoutes } from "./routes";
 
 const app = new Elysia()
   .use(openapi())
-  .get("/", () => "Hello Elysia")
+  .get("/", () => "Hello Elysia", {
+    detail: {
+      hide: true,
+    },
+  })
   .group("/api/v1", (app) => app.use(apiRoutes))
   .listen(8080);
 
